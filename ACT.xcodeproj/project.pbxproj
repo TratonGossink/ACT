@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F16154F530D1D28563E9A46 /* Pods_ACT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4FF9C745AE8AFC28128B1C /* Pods_ACT.framework */; };
 		E509BC192A0ABBCE009B03DF /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509BC182A0ABBCE009B03DF /* SwipeTableViewController.swift */; };
 		E50AD64029C1518200905052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50AD63F29C1518200905052 /* AppDelegate.swift */; };
 		E50AD64229C1518200905052 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50AD64129C1518200905052 /* SceneDelegate.swift */; };
@@ -15,15 +14,16 @@
 		E50AD64729C1518200905052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50AD64529C1518200905052 /* Main.storyboard */; };
 		E50AD64929C1518300905052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50AD64829C1518300905052 /* Assets.xcassets */; };
 		E50AD64C29C1518300905052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50AD64A29C1518300905052 /* LaunchScreen.storyboard */; };
+		E5411FC72B2F3B3500A62689 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E5411FC62B2F3B3500A62689 /* Realm */; };
+		E5411FC92B2F3B3500A62689 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E5411FC82B2F3B3500A62689 /* RealmSwift */; };
+		E5411FCC2B2F44A300A62689 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5411FCB2B2F44A300A62689 /* SwipeCellKit */; };
 		E56B24CA2A048B5E00B9D9AC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B24C92A048B5E00B9D9AC /* Item.swift */; };
 		E56B24CC2A048B6700B9D9AC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B24CB2A048B6700B9D9AC /* Category.swift */; };
-		E5A1412B2A09BDDD00ADD494 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5A1412A2A09BDDD00ADD494 /* SwipeCellKit */; };
 		E5BDA4A029CB160D008714AC /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDA49F29CB160D008714AC /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D4FF9C745AE8AFC28128B1C /* Pods_ACT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		493BAF14D8B1F788C5940427 /* Pods-ACT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACT.debug.xcconfig"; path = "Target Support Files/Pods-ACT/Pods-ACT.debug.xcconfig"; sourceTree = "<group>"; };
+		8E056E8357179B3917621DD2 /* Pods_ACT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E509BC182A0ABBCE009B03DF /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		E50AD63C29C1518200905052 /* ACT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50AD63F29C1518200905052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +36,6 @@
 		E56B24C92A048B5E00B9D9AC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E56B24CB2A048B6700B9D9AC /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		E5BDA49F29CB160D008714AC /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		F5A84B6E5BCA64510D7442F9 /* Pods-ACT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACT.release.xcconfig"; path = "Target Support Files/Pods-ACT/Pods-ACT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A1412B2A09BDDD00ADD494 /* SwipeCellKit in Frameworks */,
-				8F16154F530D1D28563E9A46 /* Pods_ACT.framework in Frameworks */,
+				E5411FCC2B2F44A300A62689 /* SwipeCellKit in Frameworks */,
+				E5411FC92B2F3B3500A62689 /* RealmSwift in Frameworks */,
+				E5411FC72B2F3B3500A62689 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,18 +55,9 @@
 		89E83253F43CE4C27D423E21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0D4FF9C745AE8AFC28128B1C /* Pods_ACT.framework */,
+				8E056E8357179B3917621DD2 /* Pods_ACT.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D419CAF7B34DE9F00950F638 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				493BAF14D8B1F788C5940427 /* Pods-ACT.debug.xcconfig */,
-				F5A84B6E5BCA64510D7442F9 /* Pods-ACT.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		E50AD63329C1518200905052 = {
@@ -74,7 +65,6 @@
 			children = (
 				E50AD63E29C1518200905052 /* ACT */,
 				E50AD63D29C1518200905052 /* Products */,
-				D419CAF7B34DE9F00950F638 /* Pods */,
 				89E83253F43CE4C27D423E21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -148,7 +138,6 @@
 				E50AD63829C1518200905052 /* Sources */,
 				E50AD63929C1518200905052 /* Frameworks */,
 				E50AD63A29C1518200905052 /* Resources */,
-				8343B411ADE675EE042A75F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,7 +145,9 @@
 			);
 			name = ACT;
 			packageProductDependencies = (
-				E5A1412A2A09BDDD00ADD494 /* SwipeCellKit */,
+				E5411FC62B2F3B3500A62689 /* Realm */,
+				E5411FC82B2F3B3500A62689 /* RealmSwift */,
+				E5411FCB2B2F44A300A62689 /* SwipeCellKit */,
 			);
 			productName = ACT;
 			productReference = E50AD63C29C1518200905052 /* ACT.app */;
@@ -170,7 +161,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					E50AD63B29C1518200905052 = {
 						CreatedOnToolsVersion = 14.2;
@@ -187,7 +178,8 @@
 			);
 			mainGroup = E50AD63329C1518200905052;
 			packageReferences = (
-				E5A141292A09BDDD00ADD494 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+				E5411FC52B2F3B3500A62689 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				E5411FCA2B2F44A300A62689 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
 			);
 			productRefGroup = E50AD63D29C1518200905052 /* Products */;
 			projectDirPath = "";
@@ -231,24 +223,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8343B411ADE675EE042A75F7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ACT/Pods-ACT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ACT/Pods-ACT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACT/Pods-ACT-frameworks.sh\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -326,6 +302,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -340,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -386,6 +363,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -394,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -406,13 +384,12 @@
 		};
 		E50AD65129C1518300905052 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 493BAF14D8B1F788C5940427 /* Pods-ACT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4SZX5NQQ6B;
+				DEVELOPMENT_TEAM = 9A5RR2HZW6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -436,13 +413,12 @@
 		};
 		E50AD65229C1518300905052 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5A84B6E5BCA64510D7442F9 /* Pods-ACT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4SZX5NQQ6B;
+				DEVELOPMENT_TEAM = 9A5RR2HZW6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -488,20 +464,38 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E5A141292A09BDDD00ADD494 /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+		E5411FC52B2F3B3500A62689 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.43.0;
+			};
+		};
+		E5411FCA2B2F44A300A62689 /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 2.7.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E5A1412A2A09BDDD00ADD494 /* SwipeCellKit */ = {
+		E5411FC62B2F3B3500A62689 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E5A141292A09BDDD00ADD494 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			package = E5411FC52B2F3B3500A62689 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E5411FC82B2F3B3500A62689 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5411FC52B2F3B3500A62689 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		E5411FCB2B2F44A300A62689 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5411FCA2B2F44A300A62689 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
 			productName = SwipeCellKit;
 		};
 /* End XCSwiftPackageProductDependency section */

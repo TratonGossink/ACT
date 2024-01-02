@@ -41,6 +41,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="To Do Items" id="ak7-s6-oeL">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="pvc-hw-gWV">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addBtnPressed:" destination="iz3-wd-x0Q" id="xQu-Vw-GBc"/>
                             </connections>
@@ -59,6 +60,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="t0O-FO-vqK" customClass="SwipeTableViewCell" customModule="SwipeCellKit">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
@@ -76,6 +78,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Category" id="Djv-yt-chu">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dmi-1D-Q79">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="BV9-Jg-Tyg" id="LdL-93-sOd"/>
                             </connections>
@@ -97,11 +100,12 @@
                     <navigationBar key="navigationBar" opaque="NO" contentMode="scaleToFill" id="9gl-MX-dQw">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <navigationBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            <color key="backgroundColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
-                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            <color key="backgroundColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -117,9 +121,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
