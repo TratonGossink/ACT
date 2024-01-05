@@ -23,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E056E8357179B3917621DD2 /* Pods_ACT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E509BC182A0ABBCE009B03DF /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		E50AD63C29C1518200905052 /* ACT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50AD63F29C1518200905052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +54,6 @@
 		89E83253F43CE4C27D423E21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8E056E8357179B3917621DD2 /* Pods_ACT.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -57,18 +57,6 @@ class TaskClosingViewController: SwipeTableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
-//    func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
-//        if let cell = collectionView.cellForItem(at: indexPath) {
-//            cell.contentView.backgroundColor = #colorLiteral(red: 1, green: 0.4932718873, blue: 0.4739984274, alpha: 1)
-//        }
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
-//        if let cell = collectionView.cellForItem(at: indexPath) {
-//            cell.contentView.backgroundColor = nil
-//        }
-//    }
-    
     //MARK: - Manipulation Methods
     
     func loadItems() {
@@ -87,7 +75,7 @@ class TaskClosingViewController: SwipeTableViewController {
         tableView.reloadData()
     }
     
-    override func updateModel(at indexPath: IndexPath) {
+    override func deleteCellModel(at indexPath: IndexPath) {
         if let deleteItem = newItem?[indexPath.row] {
             do {
                 try realm.write {
@@ -115,7 +103,7 @@ class TaskClosingViewController: SwipeTableViewController {
                 do {
                     try self.realm.write {
                         let newItem = Item()
-                        newItem.title = textField.text!
+                        newItem.title = textField.text!.capitalized
                         newItem.dateCreated = Date()
                         currenCategory.items.append(newItem)
                     }
@@ -130,6 +118,7 @@ class TaskClosingViewController: SwipeTableViewController {
             alertTextField.placeholder = "Create New Task"
             textField = alertTextField
         }
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil))
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
     }
